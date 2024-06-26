@@ -1,22 +1,22 @@
-class Person {
+class exercise4 {
     name: string;
     age: number;
     private socialSecurityNumber: string;
   
     constructor(name: string, age: number, socialSecurityNumber: string) {
-      this.name = "mpule";
-      this.age = 21;
-      this.socialSecurityNumber = "p1234";
+      this.name = name;
+      this.age =age;
+      this.socialSecurityNumber =socialSecurityNumber;
     }
   
     getName(): string {
       return this.name;
     }
-    etAge(): number {
+    getAge(): number {
         return this.age;
       }
   }
   
-  
-  
-    
+  let person=new exercise4("lerato",21,"pee")
+
+  console.log(person.getName())

@@ -1,7 +1,8 @@
+"use strict";
 var surname = "pule";
 console.log(surname);
 var weight = 60;
-var num3 = 9;
-num3 = true;
-var variable = "21";
-variable = "pule";
+var num4 = 9;
+num4 = true;
+var variables = "21";
+variables = "pule";

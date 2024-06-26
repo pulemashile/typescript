@@ -1,4 +1,3 @@
-var info;
-info = "beginner at coding";
-info = true;
-console.log(info);
+"use strict";
+var info = "beginner at coding";
+var info = true;

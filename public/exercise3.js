@@ -1,8 +1,9 @@
-var calculator = function (a, b) {
+"use strict";
+var calculator = (a, b) => {
     return a + b;
 };
 console.log(calculator(3, 2));
-var fixednumber = function () {
+var fixednumber = () => {
     return 8;
 };
 var result = fixednumber();
