@@ -22,6 +22,5 @@ function STRINGCHECK(str: string, toUppercase?: boolean): string {
   console.log(STRINGCHECK("PULE"));
   console.log(STRINGCHECK("BEGINNER", true));
   console.log(STRINGCHECK("HELLO", false)); 
-
   
   
